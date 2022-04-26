@@ -1,0 +1,96 @@
+/*
+primary: #98f5e1
+secondary: #a2d2ff
+danger: #ae2012
+info: #ffc300
+*/
+
+html{
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.logo{
+    background-color: #98f5e1;
+    display: block;
+    font-size: 3rem;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    
+}
+
+
+.btn-primary{
+   
+    background-color: #98f5e1;
+    color: white;
+}
+
+.btn-secondary{
+  
+    background-color: #a2d2ff;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #ae2012;
+    color: white;
+}
+
+.btn-info{
+    background-color: #ffc300;
+    color: white;
+}
+
+.card{
+    width: 20rem;
+    overflow: hidden; /*corta el contenido para que permanezca dentro de la tarjeta*/
+    background-color: #98f5e1;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 1em;
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.card-body p{
+    font-weight: 300;
+}

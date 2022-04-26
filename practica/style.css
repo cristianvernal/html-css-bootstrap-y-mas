@@ -1,0 +1,49 @@
+/*colores de mi sitio web
+primary: #383E56
+secondary: #F69E7B
+light: #EEDAD1
+info: #D4B5B0 */
+
+body{
+    background-color: #D4B5B0;
+}
+
+.bg-primary{
+    background-color: #383E56;
+}
+
+.text-primary{
+    color: #383E56;
+}
+
+.bg-secondary{
+    background-color: #F69E7B;
+}
+
+.bg-light{
+    background-color: #EEDAD1;
+}
+
+.bg-info{
+    background-color: #D4B5B0;
+}
+
+.text-light{
+    color: #EEDAD1;
+}
+.text-center{
+    text-align: center;
+}
+.text-secondary{
+    color: #F69E7B;
+}
+.width-100{
+    width: 100px;
+}
+
+.cards{
+    display: grid;
+    grid-auto-flow: inherit;
+    
+    
+}

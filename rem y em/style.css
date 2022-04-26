@@ -1,0 +1,14 @@
+html{
+    font-size: 16px; /*tamaño de letra viene por defecto con el navegador*/
+}
+
+body{
+    font-size: 32px;
+}
+
+h1{
+    background-color: turquoise;
+    padding: 1em;
+    margin: 1em;
+    font-size: 4rem;
+}

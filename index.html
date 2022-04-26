@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeros pasos</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet <b>consectetur</b> adipisicing elit. Dolorum ducimus ratione recusandae sint et atque qui, deleniti molestiae error quaerat fugit. Debitis id culpa quis dicta itaque omnis, suscipit nam?</p>
+    <s>texto tachado</s>
+    <p><sub>texto de subindice</sub></p>
+    <strong>esto es importante</strong>
+    <i>texto</i>
+    <b>esto es importante</b>
+    <h1></h1>
+<!--listas-->
+<ul> <!--desordenadas-->
+    <li>elemento #1</li>
+    <li>elemento #2</li>
+    <li>elemento #3</li>
+    <li>elemento #4</li>
+    <li>elemento #5</li>
+</ul>
+<ol> <!--ordenadas-->
+    <li>elemento #1</li>
+    <li>elemento #2</li>
+    <li>elemento #3</li>
+    <li>elemento #4</li>
+    <li>elemento #5</li>  
+    </ol>
+<!--anclas o vinvulos-->
+    <a href="https://www.google.cl"> ir a pagina de google</a>
+<!--imagenes-->
+    <img src="cara-kld--1200x630@abc.jpg" alt=" cara de alguien">
+<!--imagen con vinculo-->
+<a href="https://www.google.cl"><img src="2993685_brand_brands_google_logo_logos_icon.png" alt=" ir a google"></a>
+<!--tablas-->
+    <table border="1">
+        <caption>Lista de Mascotas</caption>
+        <thead>
+            <tr>
+                <th>mascota</th>
+                <th>edad</th>
+                <th>color</th>
+            </tr>
+        </thead>
+        <tfoot> <!--para tablas extensas-->
+            <tr>
+                <th>mascota</th>
+                <th>edad</th>
+                <th>color</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+               <td>gato</td> 
+               <td>3 años</td> 
+               <td>negro</td> 
+            </tr>
+            <tr>
+                <td>perro</td>
+                <td>1 año</td>
+                <td>cafe</td>
+            </tr>
+            <tr>
+                <td>perro</td>
+                <td>1 año</td>
+                <td>cafe</td>
+            </tr>
+            <tr>
+                <td>perro</td>
+                <td>1 año</td>
+                <td>cafe</td>
+            </tr>
+            <tr>
+                <td>perro</td>
+                <td>1 año</td>
+                <td>cafe</td>
+            </tr>
+            <tr>
+                <td>perro</td>
+                <td>1 año</td>
+                <td>cafe</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>edad</th>
+                <th>nacionalidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jusnito</td>
+                <td colspan="2">sin informacion</td>
+            </tr>
+            <tr>
+                <td>marcos</td>
+                <td>25</td>
+                <td>argentina</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>edad</th>
+                <th>nacionalidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jusnito</td>
+                <td>20</td>
+                <td rowspan="2">sin informacion</td>
+            </tr>
+            <tr>
+                <td>marcos</td>
+                <td>25</td>
+                
+            </tr>
+        </tbody>
+    </table>
+<br>
+<!--formularios-->
+<form action="enviando.html" method="GET">
+    <label for="nombre">nombre:</label> <!--etiqueta para relacionar con el input-->
+    <input name="nombre" id="nombre" type="text" placeholder="ingrese su nombre" required>
+    <br>
+    <label for="apellido">apellido:</label>
+    <input name="apellido" id="apellido" type="text" placeholder="ingrese su apellido"> 
+    <button type="submit">agregar</button>
+</form>
+
+<br>
+
+<form action="">
+    <input type="email" required>
+    <button type="submit">enviar</button>
+</form>
+<br>
+<form action="">
+    <input type="password">
+    <button type="submit">enviar</button>
+</form>
+<br>
+<form action="">
+    <textarea name="" id="" cols="30" rows="10">ingrese sus comentarios</textarea>
+    <button type="submit">enviar</button>
+</form>
+<br>
+<form action="">
+    <input type="radio" value="gato" id="gato" name="mascota"> 
+    <label for="gato">gato</label>
+    <input type="radio" value="perro" id="perro" name="mascota">
+    <label for="perro">perro</label>
+    <button type="submit">enviar</button>
+    <input type="button" value="enviar">
+    <br>
+    <form action="">
+        <input type="color">
+        <button type="submit">enviar</button>
+    </form>
+</form>
+<form action="">
+    <input type="date">
+    <button type="submit">enviar</button>
+</form>
+<form action="">
+    <input type="file">
+    <button type="submit">enviar</button>
+</form>
+<form action="">
+    <input type="month">
+    <button type="submit">enviar</button>
+</form>
+<form action="">
+    <input type="range">
+    <button type="submit">enviar</button>
+</form>
+<form action="">
+    <input type="time">
+    <button type="submit">enviar</button>
+</form>
+<form action="">
+    <input type="week">
+    <button type="submit">enviar</button>
+</form>
+</body>
+</html>

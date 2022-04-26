@@ -1,0 +1,21 @@
+.text-danger{
+    color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+    
+}
+
+h1{
+    font-size: 100px;
+    color: orangered;
+}
+p{
+    background-color: orangered;
+    color: rgba(0, 0, 10, 0.2);
+    font-size: 50px;
+}
+#encabezado-1{
+    color: blue;
+}
