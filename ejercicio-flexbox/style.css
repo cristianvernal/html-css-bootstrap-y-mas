@@ -1,0 +1,190 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*utilitarias*/
+  .container{
+      width: 80%;
+      max-width: 1280px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    
+}
+
+.btn-primary{
+   
+    background-color: #0F2620;
+    color: white;
+}
+
+.btn-secondary{
+  
+    background-color: #7BA69A;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #A6444C;
+    color: white;
+}
+
+.btn-info{
+    background-color: #45453C;
+    color: white;
+}
+
+  /*header*/
+  .bg-header{
+      background-image: url('imagenes/bg-header-min.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 18.75em;
+  }
+
+  .bg-navbar{
+      background-color: rgba(0, 0, 0, 0.377);
+      padding: 1.5em 0;
+  }
+
+  .navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar-brand{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 1em;
+  }
+
+  .navbar-brand img{
+      width: 2em;
+  }
+
+  .navbar-nav{
+      background-color: rgba(0, 0, 0, 0.9);
+      border-radius: 0.3em;
+  }
+
+  .navbar-link{
+      display: inline-block;
+      padding: 0.3em;
+      color: white;
+      text-decoration: none;  
+  }
+
+  .navbar-link:hover{
+      background-color: white;
+      color: black;
+      border-radius: 0.5em;
+  }
+
+.main{
+    background-color: white;
+    margin-top: -2em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+.main-title{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+  .card{
+    
+    overflow: hidden; /*corta el contenido para que permanezca dentro de la tarjeta*/
+    background-color: #A6444C;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
+  }
+  .card-img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 1em;
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.card-body p{
+    font-weight: 300;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #45453C;
+}
+
+.nosotros-col-img{
+    background-image: url('imagenes/nosotros-min.png');
+    height: 21.875em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    order: 2;
+}
+
+.nosotros-col-text{
+    order: 1;
+    
+}
+
+.nosotros-body{
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.nosotros-body h2{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nosotros-body p{
+    font-size: 200;
+}
+
+.bg-footer{
+    background-color: #45453C;
+    color: white;
+}
+
+.bg-footer p{
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
