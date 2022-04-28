@@ -7,6 +7,7 @@ html {
 
   body{
     font-family: 'Raleway', sans-serif;
+    background-color: #ffc6ff;
   }
 
   /*utilitarias*/
@@ -118,7 +119,7 @@ html {
   }
 
 .main{
-    background-color: white;
+    background-color: #fdffb6;
     margin-top: -2em;
     padding: 0.3em;
     border-radius: 0.3em;
@@ -222,8 +223,8 @@ html {
 }
 
 .bg-footer{
-    background-color: #45453C;
-    color: white;
+    background-color: #9bf6ff;
+    color: #333d29;
 }
 
 .bg-footer p{
