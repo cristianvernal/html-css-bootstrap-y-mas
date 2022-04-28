@@ -69,6 +69,13 @@ html {
       align-items: center;
   }
 
+@media(min-width: 768px){
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
   .navbar-brand{
       display: flex;
       flex-direction: column;
@@ -80,6 +87,13 @@ html {
       margin-bottom: 1em;
   }
 
+@media(min-width: 768px){
+    .navbar-brand{
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+}
+
   .navbar-brand img{
       width: 2em;
   }
@@ -87,6 +101,7 @@ html {
   .navbar-nav{
       background-color: rgba(0, 0, 0, 0.9);
       border-radius: 0.3em;
+      padding: 1em;
   }
 
   .navbar-link{
@@ -113,6 +128,14 @@ html {
     text-align: center;
     text-transform: uppercase;
     
+}
+
+
+@media(min-width: 768px){
+    .tienda{
+        display: flex;
+        gap: 1em;
+    }
 }
 
   .card{
@@ -149,19 +172,39 @@ html {
 }
 
 .nosotros-col-img{
+    order: 2;
     background-image: url('imagenes/nosotros-min.png');
-    height: 21.875em;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    height: 21.875em;
     width: 100%;
-    order: 2;
 }
 
 .nosotros-col-text{
     order: 1;
-    
 }
+
+@media (min-width: 576px){
+    .nosotros-col-img{
+        height: 31.25em;
+    }
+}
+
+@media (min-width: 768px){
+    .nosotros{
+        flex-direction: row;
+    }
+    .nosotros-col-img{
+        order: 1;
+        flex: 1 1 0;
+    }
+    .nosotros-col-text{
+        order: 2;
+        flex:  1 1 0;
+    }
+}
+
 
 .nosotros-body{
     padding: 1em;
