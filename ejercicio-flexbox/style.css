@@ -7,7 +7,7 @@ html {
 
   body{
     font-family: 'Raleway', sans-serif;
-    background-image: repeating-linear-gradient(0.5deg, #ffc4d6, #f2cc8f)
+    background-image: repeating-linear-gradient(0.5deg, #ffc4d6, #f2cc8f);
   }
 
   /*utilitarias*/
